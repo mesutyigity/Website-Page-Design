@@ -14,9 +14,25 @@ header {
   margin-top: 15px;
   margin-left: 15px;
 }
+header .login {
+  float: right;
+  color: #920101;
+  padding-top: 1.7rem;
+  padding-right: 0.5rem;
+}
+
+header .login a {
+  color: #920101;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header .login a:hover {
+  border-bottom: 2px solid #920101;
+}
 .login {
   float: right;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 15px;
 }
 .sticky {
@@ -27,6 +43,16 @@ header {
   margin-bottom: 25px;
   background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
   position: sticky;
+}
+nav.sticky a {
+  font-family: "DynaPuff", cursive;
+  text-decoration: none;
+  color: black;
+  margin-right: 0.8rem;
+}
+
+nav.sticky a:hover {
+  color: white;
 }
 .banner-img img {
   width: 100%;
@@ -97,9 +123,9 @@ main {
   padding-top: 8px;
 }
 .icon:hover {
-    cursor: pointer;
-    outline: 2px solid red;
-    outline-offset: 3px;
-    color: black;
-  }
-  
+  cursor: pointer;
+  outline: 2px solid gray;
+  outline-offset: 3px;
+  color: black;
+  background-color: #d9afd9;
+}
